@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="130dp"
+    android:layout_height="wrap_content"
+    android:background="#14000000"
+    android:backgroundTint="#F4F1F1"
+    android:orientation="vertical"
+    android:shadowRadius="0"
+    android:visibility="visible">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:adjustViewBounds="false"
+        android:scaleType="fitCenter"
+        android:shadowRadius="0"
+        android:src="@drawable/circle" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:shadowRadius="0"
+        android:text="@string/developed_for_bosch_hackathon"
+        android:textColor="#FFEB3B"
+        android:visibility="visible" />
+
+    <!--<com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayout"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:hint="Type here"
+        app:counterEnabled="true"
+        app:counterMaxLength="30"
+        app:endIconMode="clear_text">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInputEditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:maxLength="30"
+            android:visibility="visible"
+            tools:visibility="visible" />
+    </com.google.android.material.textfield.TextInputLayout> -->
+
+</LinearLayout>

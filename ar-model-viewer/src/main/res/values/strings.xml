@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translation_description="App Name [CHAR LIMIT=40]">Bosch Hackathon</string>
+    <string name="developed_for_bosch_hackathon">Developed for bosch hackathon</string>
+    <string name="enter_something">Enter Something...</string>
+</resources>
